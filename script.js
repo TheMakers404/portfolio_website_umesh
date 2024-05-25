@@ -27,6 +27,7 @@ ScrollTrigger.scrollerProxy("#main", {
 ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 ScrollTrigger.refresh();
 }
+
 locomotiveanimation()
 
 gsap.to("#nav", {
@@ -47,6 +48,7 @@ gsap.to("#nav", {
 //   el: document.querySelector('#main'),
 //   smooth: true
 // });
+
 
 
 //project responsive start
@@ -86,6 +88,8 @@ function toggleMenu() {
 }
 
 
+
+
 gsap.from(".section__text__p1, .title,.section__text__p2,.emaill,#socials-container", {
   y: 100,
   opacity: 0,
@@ -121,4 +125,12 @@ document.querySelectorAll(".child").forEach(function (elem) {
   });
 });
 
+
+document.getElementById("exploreButton").addEventListener("click", function() {
+  window.location.href = "work.html";
+});
+
+
+
+//switch color
 

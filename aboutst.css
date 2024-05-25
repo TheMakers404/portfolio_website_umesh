@@ -1,0 +1,125 @@
+
+.main{
+    background-color: #ffffff;
+}
+
+.cursorr{
+    position: fixed;
+    z-index: 8;
+    transition: background-image ease 0.2s;
+    background-position: center;
+    background-size:cover ;
+    pointer-events: none;
+}
+
+.box:hover h3, .box:hover h4 {
+    color: #333;
+    transition: color 0.3s;
+}
+.page0 h1{
+    padding: 200px;
+    padding: 200px;
+    font-size: 6vw;
+    color: white;
+}
+.page1{
+    min-height: auto;
+    width: 100%;
+
+}
+.page1 h1{
+    font-size: 7vw;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 70px;
+}
+
+.page1-left img{
+    height: 400px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 25px;
+    background-image: linear-gradient(45deg, #dfdfdf,#dfdfdf);
+    
+}
+
+.page1-container{
+    height: 60vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 0 5vw;
+    padding-top: 9vw;
+}
+.page1-right{
+    text-align: start;
+    font-size: 1.5vw;
+    
+
+}
+
+
+
+
+
+
+
+
+.page2{
+    height: 100vh;
+    width: 100%;
+}
+.page2 h1 {
+    font-size: 4vw;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 20vw;
+    color: #ffffff;
+    
+}
+.page2 h2{
+    font-size: 4vw;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.page5 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    /* background-color: aqua; */
+    z-index: 9;
+    padding: 140px 100px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.page5 h2 {
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.box {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 2px solid #dadada;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.box:nth-last-child(1){
+    border-bottom: 2px solid #dadada;
+
+}
+
