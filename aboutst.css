@@ -28,7 +28,7 @@
 
 }
 .page1 h1{
-    font-size: 7vw;
+    font-size: 5rem;
     font-weight: 400;
     text-align: start;
     padding-left: 70px;
@@ -38,7 +38,8 @@
     height: 400px;
     background-color: rgb(241, 241, 241);
     border-radius: 25px;
-    background-image: linear-gradient(45deg, #dfdfdf,#dfdfdf);
+    /* background-image: linear-gradient(45deg, #dfdfdf,#dfdfdf); */
+    border: 2px solid #000;
     
 }
 
@@ -51,7 +52,7 @@
     justify-content: space-between;
     gap: 100px;
     padding: 0 5vw;
-    padding-top: 9vw;
+    padding-top: 5vw;
 }
 .page1-right{
     text-align: start;
@@ -123,3 +124,55 @@
 
 }
 
+@media (max-width: 600px) {
+    .page1 h1 {
+        font-size: 9vw;
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    .page1-left img {
+        height: 300px;
+    }
+
+    .page1-container {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 5vw;
+    }
+
+    .page1-right {
+        font-size: 4vw;
+        text-align: center;
+    }
+    .page2{
+        height: 70vh;
+    }
+    .page2 h1 {
+        font-size: 6vw;
+        padding-left: 20vw;
+        padding-top: 25vw;
+    }
+
+    .page2 h2 {
+        font-size: 6vw;
+        padding-right: 0px;
+    }
+
+    .page5 {
+        padding: 60px 20px;
+    }
+
+    .page5 h2 {
+        font-size: 6vw;
+        margin-bottom: 30px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+}
